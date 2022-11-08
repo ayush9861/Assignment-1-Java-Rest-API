@@ -60,7 +60,7 @@ Here, we have created the class coursecontroller which is responsible for handli
 
 ### UPDATE
 
-![]()
+![](https://i.imgur.com/6TrLrEv.png)
 
 ### DELETE
 
