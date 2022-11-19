@@ -19,7 +19,7 @@ public class ServerController {
 
 
     @GetMapping("/")
-    private List<Server> getCourses()
+    private List<Server> getServer()
     {
         return serverService.getAllServer();
     }
@@ -34,12 +34,12 @@ public class ServerController {
 
 
     @PostMapping("/add")
-     public Server addCourses(@RequestBody Server server) {
+     public Server addServer(@RequestBody Server server) {
         return serverService.AddServer(server);
     }
 
     @PutMapping("/update/{id}")
-    private Server UpdateCourses(@RequestBody Server server, @PathVariable String id)
+    private Server UpdateServer(@RequestBody Server server, @PathVariable String id)
     {
         server.setId(id);
         this.serverService.AddServer(server);
