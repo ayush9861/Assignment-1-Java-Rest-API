@@ -53,27 +53,27 @@ controller which is responsible for handling all the client requests and navigat
 
 ### GET ALL DATA
 
-![](https://i.imgur.com/tUChi2l.png)
+![](https://i.imgur.com/q2PV28V.png)
 
 ### ADD
 
-![](https://i.imgur.com/7dtZVhm.png)
+![](https://i.imgur.com/h7QviB7.png)
 
 ### UPDATE
 
-![](https://i.imgur.com/z428uJB.png)
+![](https://i.imgur.com/wPc7lxR.png)
 
 ### DELETE
 
-![](https://i.imgur.com/Eiw9WF2.png)
+![](https://i.imgur.com/JQW2Zjp.png)
 
 ### FIND
 
-![](https://i.imgur.com/KO94vMQ.png)
+![](https://i.imgur.com/Ht9ziT9.png)
 
 ### GetById
 
-![](https://i.imgur.com/ZD7HtbJ.png)
+![](https://i.imgur.com/bu2fFhD.png)
 
 
                                       
