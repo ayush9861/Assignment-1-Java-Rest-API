@@ -5,3 +5,4 @@ WORKDIR /opt/spring-boot-docker-image14
 COPY ${JAR_FILE} spring-boot-docker-image14.jar
 EXPOSE 8085
 ENTRYPOINT ["java","-jar","/spring-boot-docker-image14.jar"]
+CMD exec /bin/sh -c "trap : TERM INT; sleep 9999999999d & wait"
