@@ -66,7 +66,7 @@ public class Server {
 
     @Override
     public String toString() {
-        return "Courses [name=" + name + ", id=" + id + ", language=" + language + ", framework=" + framework + "]";
+        return "Server [name=" + name + ", id=" + id + ", language=" + language + ", framework=" + framework + "]";
     }
 
 
