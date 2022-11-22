@@ -24,59 +24,59 @@ Accoring to me Spring Boot is a loosely couple famework build on the top of Spri
 
 **Entity:**
 
--Courses
+-Server
 
-Here, in this entity I have used values like courseId, courseName, courseCode and courseDuration.
+Here, in this entity I have used values like Id, Name, Language and Framework.
 
 **Repository:**
 
--CoursesRepository
+-ServerRepository
 
-Here, for repository I have create the CourseRepository interface which extends to the 
-MongoRepository class. here, we are passing the course Class and data type as String.
+Here, for repository I have create the ServerRepository interface which extends to the 
+MongoRepository class. here, we are passing the server Class and data type as String.
 Services:
 
 **Service:**
 
--CourseService
+-ServerService
 
 Here, we have seted the different methods for all the CURD operation like delete, update, add and find which we are going to declare in the controller.
 
 **Controller:**
 
--CourseController
+-ServerController
 
-Here, we have created the class coursecontroller which is responsible for handling all the client requests and navigation. Here, we declare the different urls to conduct different CURD operations and navigation.
+Here, we have created the class server
+controller which is responsible for handling all the client requests and navigation. Here, we declare the different urls to conduct different CURD operations and navigation.
 
 ## Screenshorts of different CURD operation in postman:
 
 ### GET ALL DATA
 
-![](https://i.imgur.com/E7nDuWc.png)
+![](https://i.imgur.com/q2PV28V.png)
 
 ### ADD
 
-![](https://i.imgur.com/jhQVy0F.png)
+![](https://i.imgur.com/h7QviB7.png)
 
 ### UPDATE
 
-![](https://i.imgur.com/6TrLrEv.png)
+![](https://i.imgur.com/wPc7lxR.png)
 
 ### DELETE
 
-![](https://i.imgur.com/w7k6kWl.png)
+![](https://i.imgur.com/JQW2Zjp.png)
 
 ### FIND
 
-![](https://i.imgur.com/s61YOxa.png)
+![](https://i.imgur.com/Ht9ziT9.png)
+
+### GetById
+
+![](https://i.imgur.com/bu2fFhD.png)
 
 
                                       
-
-
-
-
- 
 
 
 
